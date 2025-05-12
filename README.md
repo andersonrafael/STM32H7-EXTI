@@ -53,10 +53,4 @@ Após carregar o código na placa STM32:
 * Certifique-se de que as configurações de clock (`SystemClock_Config`) e GPIO (`MX_GPIO_Init`) estejam corretas para a sua placa STM32. Essas configurações podem variar dependendo do modelo específico.
 * A configuração da MPU (`MPU_Config`) neste código desabilita a MPU e configura uma região de memória sem acesso. Em projetos mais complexos, a MPU é usada para proteger regiões de memória. Para este projeto simples, essa configuração específica pode não ser estritamente necessária, mas é incluída no código gerado.
 
-## Próximos Passos
 
-* Implementar um tempo de debounce para o botão para evitar múltiplas detecções com uma única pressão.
-* Modificar o padrão de pisca dos LEDs.
-* Adicionar mais funcionalidades ao projeto, como sequências de LEDs diferentes ou interação com outros periféricos.
-
-Sinta-se à vontade para explorar e modificar este código para aprender mais sobre o controle de periféricos em microcontroladores STM32!
